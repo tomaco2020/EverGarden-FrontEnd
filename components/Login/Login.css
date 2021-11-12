@@ -1,0 +1,20 @@
+.ant-input {
+    width: 80%;
+}
+
+.ant-input-affix-wrapper{
+    width: 80%;
+}
+
+.ant-input-suffix {
+    margin-left: 265px;
+}
+
+.ant-input-affix-wrapper > input.ant-input{
+    width: 100%;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner{
+background-color: #666600;
+border-color: #666600;
+}

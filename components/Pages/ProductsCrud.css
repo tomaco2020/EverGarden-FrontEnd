@@ -1,0 +1,22 @@
+.ant-pagination-item-active:focus-visible, .ant-pagination-item-active:hover {
+  border-color: #666600;
+}
+
+.ant-pagination-item-active:focus-visible a, .ant-pagination-item-active:hover a {
+  color: #666600;
+}
+
+.ant-pagination-item-active:focus-visible, .ant-pagination-item-active {
+  border-color: #666600;
+}
+
+.ant-pagination-item-active:focus-visible a, .ant-pagination-item-active a {
+  color: #666600;
+}
+
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  color: #fff;
+  background: #666600;
+  border-color: #666600;
+}

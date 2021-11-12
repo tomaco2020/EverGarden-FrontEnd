@@ -1,0 +1,15 @@
+.name {
+  font-weight: bold;
+}
+
+img {
+  width:150px;
+  height:150px;
+}
+
+
+.cardStyle {
+   margin: 1rem;
+   float: left;
+}
+

@@ -1,0 +1,76 @@
+
+.container {
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fila-1{
+  height: 360px;
+}
+
+
+.col{
+  width: 50%;
+  height: 400px;
+	padding: 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.p-frase{
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.col2{
+  height: 50%;
+  width: 100%;
+ overflow: hidden;
+}
+
+.col2 ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 20s infinite;
+  animation-direction: alternate;
+}
+
+.col2 ul p{
+  width: 100%;
+  list-style: none;
+}
+
+.img-index{
+  width: 380px;
+  height: 380px;
+  border-radius:200px;
+  border:2px solid #dfdbdb;
+}
+
+@keyframes cambio {
+  0% { margin-left: 0;}
+  20% { margin-left: 0;}
+
+  25% { margin-left: -100%;}
+  45% { margin-left: -100%;}
+
+  50% { margin-left: -200%;}
+  70% { margin-left: -200%;}
+
+  75% { margin-left: -300%;}
+  100% { margin-left: -300%;}
+}
+
+

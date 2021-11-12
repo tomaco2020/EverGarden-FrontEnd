@@ -1,0 +1,57 @@
+.ant-modal-header {
+    padding: 16px 24px;
+    color: rgba(0, 0, 0, 0.85);
+    background: #999933;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 2px 2px 0 0;
+}
+.img-contact{
+    width: 100%;
+    height: auto;
+  }
+
+  .ant-btn:active {
+    color: #666600;
+    background: #fff;
+    border-color: #666600;
+  }
+  
+  .ant-radio-inner::after {
+    background-color: #666600;
+}
+  
+
+  .ant-radio-wrapper:hover .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+    border-color: #666600;
+}
+
+.ant-radio-wrapper .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+    border-color: #666600;
+}
+
+.ant-input-affix-wrapper .ant-input-password .ant-input{
+    width: 100px;
+}
+
+.ant-input-suffix{
+    width: 50px;
+}
+
+.ant-form-item-control-input .ant-input:hover {
+    border-color: #666600
+}
+
+
+.ant-input-affix-wrapper  .ant-input:hover{
+    border-color: #666600
+}
+
+.ant-form-item-control-input  .ant-input:hover{
+    border-color: #666600
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+    border-color: #666600;
+    border-right-width: 1px !important;
+    z-index: 1;
+}

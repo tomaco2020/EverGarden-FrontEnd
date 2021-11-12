@@ -1,0 +1,50 @@
+.ant-btn-primary {
+  color: #fff;
+  background: #666600;
+  border-color: #666600;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.ant-btn:active {
+  color: #666600;
+  background: #fff;
+  border-color: #666600;
+}
+
+.ant-btn:hover {
+  color: #666600;
+  background: #fff;
+  border-color: #666600;
+}
+
+.ant-input-affix-wrapper .ant-input-password .ant-input{
+  width: 100px;
+}
+
+.ant-input-suffix{
+  width: 50px;
+}
+
+.ant-form-item-control-input .ant-input:hover {
+  border-color: #666600
+}
+
+
+.ant-input-affix-wrapper  .ant-input:hover{
+  border-color: #666600
+}
+
+.ant-form-item-control-input  .ant-input:hover{
+  border-color: #666600
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #666600;
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+
+.ant-select-single.ant-select-open .ant-select-selection-item:hover {
+  color: #666600;
+}

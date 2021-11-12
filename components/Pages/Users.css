@@ -1,0 +1,11 @@
+.ant-layout-content {
+    min-height: 120px;
+    color: #fff;
+    line-height: 10px; 
+    background: rgba(16, 142, 233, 1);
+}
+
+
+.ant-input-suffix{
+    width: 50px;
+}
